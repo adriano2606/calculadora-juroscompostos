@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Juros Compostos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+
+    
+</head>
+<body>
+    <div class="center">
+        <div class="content">
+            <h1>Simulador de Juros Compostos</h1>
+            <div class="form">
+                <label for="initial_amount">Valor inicial:</label>
+                <input type="text" name="" id="initial_amount">
+                <label for="aporte_amount">Valor do aporte mensal:</label>
+                <input type="text" name="" id="aporte_amount">
+                <label for="interest_rate">Taxa de juros mensal:</label>
+                <input type="text" name="" id="interest_rate">
+                <label for="time">Tempo em meses:</label>
+                <input type="text" name="" id="time" >
+                <button type="button" onclick="calcular()">Calcular</button>
+            </div>
+            <div class="result">
+                <h2>Aqui está o resultado:</h1>
+                <div class="result__content">
+                    <span>O total investido foi de <span class="destaque">R$ 1000.00</span></span>
+                    <span>O ganho de juros compostos foi de <span class="destaque">$ 500.00 </span></span>
+                    <span>O valor final acumulado foi de <span class="destaque">R$ 1500.00</span>, um rendimento de <span class="destaque">50%</span> do valor aplicado</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./assets/main.js"></script>
+</body>
+</html>
