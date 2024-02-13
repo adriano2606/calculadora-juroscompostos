@@ -16,24 +16,18 @@
     <div class="center">
         <div class="content">
             <h1>Simulador de Juros Compostos</h1>
-            <div class="form">
+            <form class="form">
                 <label for="initial_amount">Valor inicial:</label>
-                <input type="text" name="" id="initial_amount" value="">
+                <input type="number" id="initial_amount" required>
                 <label for="aporte_amount">Valor do aporte mensal:</label>
-                <input type="text" name="" id="aporte_amount">
+                <input type="number" id="aporte_amount" required>
                 <label for="interest_rate">Taxa de juros mensal:</label>
-                <input type="text" name="" id="interest_rate">
+                <input type="number" id="interest_rate" required>
                 <label for="time">Tempo em meses:</label>
-                <input type="text" name="" id="time" >
+                <input type="number" id="time" required >
                 <button type="button" onclick="calcular()">Calcular</button>
-            </div>
+            </form>
             <div class="result">
-                <h2>Aqui está o resultado:</h1>
-                <div class="result__content">
-                    <span>O total investido foi de <span class="destaque" id="totalInvestido">R$ 1000.00</span></span>
-                    <span>O ganho de juros compostos foi de <span class="destaque" id="totalJuros">$ 500.00 </span></span>
-                    <span>O valor final acumulado foi de <span class="destaque" id="resultado">R$ 1500.00</span>, um rendimento de <span class="destaque" id="percentualGanho">50%</span> do valor aplicado</span>
-                </div>
             </div>
         </div>
 

@@ -37,13 +37,19 @@ body{
     font-size: .9rem;
 }
 
-.form input{
+form input{
     margin-bottom: 2rem;
     height: 2.2rem;
     padding-left: .5rem;
     border-style: none;
     background-color: rgb(17, 17, 17);
     color: white;
+}
+
+.red{
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .form button{
@@ -53,10 +59,6 @@ body{
     font-size: 1rem;
     font-weight: bold;
     color: rgb(17, 17, 17);
-}
-
-.result{
-    visibility: hidden ;
 }
 
 .result h2{
