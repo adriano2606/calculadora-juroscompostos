@@ -18,7 +18,7 @@ function calcular(){
     resultado = resultado.toFixed(2)
     let totalInvestido = (initialAmount + (aporteAmount*time)).toFixed(2)
     let totalJuros = (resultado - totalInvestido).toFixed(2)
-    let percentualGanho = ((totalInvestido*100)/resultado).toFixed(2) 
+    let percentualGanho = ((totalJuros*100)/resultado).toFixed(2) 
 
     contentResult.innerHTML = `
     <h2>Aqui está o resultado:</h1>
